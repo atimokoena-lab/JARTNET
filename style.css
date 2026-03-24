@@ -22,8 +22,18 @@ nav a {
 .hero {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: white;
-  padding: 100px 20px;
+  padding: 120px 20px;
   text-align: center;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .services, .solutions, .contact {
@@ -86,10 +96,13 @@ footer {
   right: 20px;
   background: #25D366;
   color: white;
-  padding: 15px;
+  padding: 15px 20px;
   border-radius: 50px;
   text-decoration: none;
   font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
 }
 
 .trust {
@@ -106,4 +119,35 @@ footer {
 .trust li {
   margin: 10px 0;
   font-weight: bold;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input, 
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+.call-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: #007BFF;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
