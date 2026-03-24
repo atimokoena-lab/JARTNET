@@ -48,6 +48,16 @@
   </div>
 </section>
 
+<section class="trust">
+  <h2>Why Choose JARTNET?</h2>
+  <ul>
+    <li>✔ 10+ Years IT Experience</li>
+    <li>✔ Fast Response Time</li>
+    <li>✔ Reliable Business Solutions</li>
+    <li>✔ Onsite & Remote Support</li>
+  </ul>
+</section>
+
 <section id="solutions" class="solutions">
   <h2>Business Solutions</h2>
   <ul>
@@ -66,10 +76,16 @@
 
 <section id="contact" class="contact">
   <h2>Contact Us</h2>
-  <input type="text" placeholder="Your Name">
-  <input type="email" placeholder="Your Email">
-  <textarea placeholder="Your Message"></textarea>
-  <button onclick="sendMessage()">Send Message</button>
+
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
 </section>
 
 <footer>
@@ -77,5 +93,10 @@
 </footer>
 
 <script src="script.js"></script>
+
+<a href="https://wa.me/27832858347" class="whatsapp" target="_blank">
+  💬 Chat on WhatsApp
+</a>
+
 </body>
 </html>

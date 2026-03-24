@@ -79,3 +79,31 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.trust {
+  padding: 50px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.trust ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trust li {
+  margin: 10px 0;
+  font-weight: bold;
+}
