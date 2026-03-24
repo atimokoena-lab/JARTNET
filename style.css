@@ -1,42 +1,81 @@
-
 </> CSS
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 header {
-    background: #333;
-    color: white;
-    padding: 20px;
-}
-
-nav {
-    background: #555;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #0a192f;
+  color: white;
 }
 
 nav a {
-    color: white;
-    margin: 10px;
-    text-decoration: none;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
 }
 
 .hero {
-    padding: 50px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.services, .solutions, .contact {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.solutions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.solutions li {
+  margin: 10px 0;
+}
+
+.cta {
+  background: #007BFF;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact input, .contact textarea {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 button {
-    padding: 10px 20px;
-    cursor: pointer;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background: #0a192f;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }

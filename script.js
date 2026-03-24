@@ -1,5 +1,9 @@
 </> JavaScript
 
-function sayHello() {
-    alert("Your website is working! 🎉");
+function scrollToContact() {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+}
+
+function sendMessage() {
+  alert("Message sent! We will contact you soon.");
 }

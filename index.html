@@ -3,32 +3,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JARTNET IT Systems</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Welcome to JARTNET</h1>
-    <p>Built by Me 🚀</p>
+  <h1>JARTNET IT Systems</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-</nav>
-
 <section class="hero">
-    <h2>Hello 👋</h2>
-    <p>This is my first free website hosted online.</p>
-    <button onclick="sayHello()">Click Me</button>
+  <h2>Reliable IT & Networking Solutions</h2>
+  <p>Professional Support | WiFi | Networking | Cloud</p>
+  <button onclick="scrollToContact()">Get a Quote</button>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Network Setup</h3>
+      <p>Routers, VLANs, WiFi (2.4GHz & 5GHz), enterprise networks.</p>
+    </div>
+    <div class="card">
+      <h3>IT Support</h3>
+      <p>Remote support, troubleshooting, system maintenance.</p>
+    </div>
+    <div class="card">
+      <h3>VoIP & IP Phones</h3>
+      <p>Yealink phones, PBX setup, call routing.</p>
+    </div>
+    <div class="card">
+      <h3>Cloud & Servers</h3>
+      <p>Virtual machines, backups, remote access solutions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="solutions" class="solutions">
+  <h2>Business Solutions</h2>
+  <ul>
+    <li>Warehouse WiFi optimization</li>
+    <li>Android scanner connectivity fixes</li>
+    <li>Secure VLAN network design</li>
+    <li>Remote desktop (RDP) solutions</li>
+  </ul>
+</section>
+
+<section class="cta">
+  <h2>Need IT Support?</h2>
+  <p>We provide fast and reliable service for your business.</p>
+  <button onclick="scrollToContact()">Contact Us</button>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Your Email">
+  <textarea placeholder="Your Message"></textarea>
+  <button onclick="sendMessage()">Send Message</button>
 </section>
 
 <footer>
-    <p>© 2026 My Website</p>
+  <p>© 2026 JARTNET IT Systems | All Rights Reserved</p>
 </footer>
 
 <script src="script.js"></script>
